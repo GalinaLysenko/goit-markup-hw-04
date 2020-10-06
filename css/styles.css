@@ -290,40 +290,48 @@ body {
   margin-top: 10px;
 }
 
-.achive-icon {
-  display: block;
+.achive-item-antena::before {
+  content: url(../img/achive/antenna.svg);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
 }
 
-.antena {
-  background-image: url(../img/achive/antenna.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70px 70px;
+.achive-item-clock::before {
+  content: url(../img/achive/clock.svg);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
 }
 
-.clock {
-  background-image: url(../img/achive/clock.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70px 70px;
+.achive-item-diagramm::before {
+  content: url(../img/achive/diagramm.svg);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
 }
 
-.diagramm {
-  background-image: url(../img/achive/diagramm.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70px 70px;
-}
-
-.astronaut {
-  background-image: url(../img/achive/astronaut.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70px 70px;
+.achive-item-astronaut::before {
+  content: url(../img/achive/astronaut.svg);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
 }
 
 .title {
