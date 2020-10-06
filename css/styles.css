@@ -110,7 +110,9 @@ body {
   color: var(--accent-colour);
 }
 
-.elements-address:focus {
+.elements-address:focus .elements-address-svg,
+.elements-address:focus .address-email,
+.elements-address:focus .address-tell {
   fill: var(--accent-colour);
   color: var(--accent-colour);
 }
@@ -487,12 +489,12 @@ body {
   border: 1px solid #2196f3;
 }
 
-.customers-item:focus .customers-list-link {
+.customers-list-link:focus {
   border: 1px solid #2196f3;
 }
 
-.customers-item:hover .customers-list-svg,
-.customers-item:focus .customers-list-svg {
+.customers-list-link:hover .customers-list-svg,
+.customers-list-link:focus .customers-list-svg {
   fill: var(--accent-colour);
 }
 
@@ -689,7 +691,7 @@ body {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.project-item:focus {
+.project-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
