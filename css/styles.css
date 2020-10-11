@@ -83,6 +83,7 @@ body {
 
 .address-tell,
 .address-email {
+  display: flex;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
@@ -99,11 +100,6 @@ body {
 .elements-address-svg {
   fill: var(--second-colour);
 }
-
-/* .elements-address {
-  display: inline-block;
-  align-items: center;
-} */
 
 .elements-address:hover .elements-address-svg,
 .elements-address:hover .address-email,
@@ -164,13 +160,19 @@ body {
 .address-list {
   display: flex;
   align-items: center;
-  margin-left: 290px;
+  margin-left: 305px;
 }
 
 .elements-address {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   /* width: 161px; */
   /* align-items: center; */
+}
+
+.elements-address .link {
+  display: flex;
+  align-items: center;
 }
 
 .elements-address:not(:last-child) {
@@ -262,7 +264,6 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 
 .list-achive {
   display: flex;
